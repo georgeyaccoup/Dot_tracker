@@ -1,7 +1,3 @@
-Here’s a polished and professional rewrite of your project documentation, with improved clarity, formatting, and flow while preserving all technical details:
-
----
-
 # **Robot Vision and Motor Control using ROS2**
 
 ## 📌 Project Overview
@@ -201,9 +197,9 @@ This project is licensed under the **Apache License 2.0**. See the [LICENSE](LIC
 ## 📬 Contact
 
 **Maintainer:**
-Name: *\[Your Name]*
-Email: *\[[your\_email@example.com](mailto:your_email@example.com)]*
+Name: *\Geroge Read*
+Email: *\georgeyaccoup124@gmail.com*
 
 ---
 
-Let me know if you’d like this as a `README.md` file, or want help updating your GitHub repository directly.
+
