@@ -6,14 +6,14 @@ This project integrates **robot vision** with **motor control** using **ROS 2** 
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-* **🎯 Color Detection:** Utilizes OpenCV to capture video frames, convert them to HSV, and detect red objects using color filtering.
-* **📐 Inverse Kinematics:** Translates image pixel coordinates into real-world angles for motor positioning.
-* **🧠 PID Control:** Fine-tuned PID controller (Kp=0.4, Ki=0.0051, Kd=0.12) ensures smooth and accurate motor motion.
-* **🧩 Modular ROS2 Architecture:** Dedicated nodes for color detection, kinematics, control logic, and motor actuation.
-* **🔄 Real-Time Feedback:** Feedback from motors ensures closed-loop control and synchronization across nodes.
-* **📂 Versioned Development:** Progressive builds (V01–V26) ensure traceable and iterative improvements.
+* ** Color Detection:** Utilizes OpenCV to capture video frames, convert them to HSV, and detect red objects using color filtering.
+* ** Inverse Kinematics:** Translates image pixel coordinates into real-world angles for motor positioning.
+* ** PID Control:** Fine-tuned PID controller (Kp=0.4, Ki=0.0051, Kd=0.12) ensures smooth and accurate motor motion.
+* ** Modular ROS2 Architecture:** Dedicated nodes for color detection, kinematics, control logic, and motor actuation.
+* ** Real-Time Feedback:** Feedback from motors ensures closed-loop control and synchronization across nodes.
+* ** Versioned Development:** Progressive builds (V01–V26) ensure traceable and iterative improvements.
 
 ---
 
@@ -43,7 +43,7 @@ Each ROS 2 node is designed with single responsibility:
 ### `focus_v2/`
 
 Optimized or updated versions of the above with improved performance or added features.
-⚠️ *Note:* Typo in launch file (`foucs_v2_launch.py`) should be corrected to `focus_v2_launch.py`.
+⚠ *Note:* Typo in launch file (`foucs_v2_launch.py`) should be corrected to `focus_v2_launch.py`.
 
 ---
 
@@ -185,14 +185,7 @@ To contribute:
 4. Submit a pull request.
 
 Ensure all tests pass before submitting (`pytest`).
-
----
-
-## 📄 License
-
-This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
-
----
+--
 
 ## 📬 Contact
 
