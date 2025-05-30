@@ -85,6 +85,34 @@ Package Tree
 └── 📝 README.md
 
 
+Code
+Below is an overview of the key code files in the small_project package, organized by their functionality:
+
+📁 focus/
+
+🐍 color_detector.py: Captures video frames, converts them to HSV, filters for red objects, detects contours, and publishes the object's center coordinates to the color_coordinates topic.
+🐍 feedback.py: Manages initialization and operational feedback between motor nodes and the color detector, publishing signals to the feedback topic.
+🐍 kinematics.py: Performs inverse kinematics calculations to convert pixel coordinates to motor angles, publishing results to the desired_angles topic.
+🐍 Motor_x.py: Controls the X-axis stepper motor, moving it to target angles (0° to 110.4°) and sending feedback to the motor_x_feedback topic.
+🐍 Motor_y.py: Controls the Y-axis stepper motor, moving it to target angles (0° to 330°) and sending feedback to the motor_y_feedback topic.
+🐍 pid_controller.py: Implements PID control (Kp=0.4, Ki=0.0051, Kd=0.12) to stabilize motor movements, publishing commands to motor_x_command and motor_y_command topics.
+🚀 focus_launch.py: ROS2 launch file to start all nodes in the focus package.
+
+
+📁 focus_v2/
+
+🐍 color_detector.py: Same functionality as in focus, with potential updates or optimizations for version 2.
+🐍 kinematics.py: Same as in focus, with possible refinements for inverse kinematics calculations.
+🐍 Motor_x.py: Controls the X-axis motor, identical to focus but part of the version 2 package.
+🐍 Motor_y.py: Controls the Y-axis motor, identical to focus but part of the version 2 package.
+🐍 pid_controller.py: Applies PID control, same as in focus, with potential tuning adjustments.
+🚀 foucs_v2_launch.py: ROS2 launch file to start all nodes in the focus_v2 package (note: contains a typo in the filename, should be focus_v2_launch.py).
+
+
+🐍 setup.py: Configures the small_project package, defining entry points for executables and dependencies (e.g., setuptools, pytest).
+
+
+
 Installation
 
 Prerequisites:
@@ -174,9 +202,12 @@ The modular ROS2 architecture ensures scalability and ease of maintenance.
 Contributing
 Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request with your changes. Ensure all tests pass (pytest) before submitting.
 
+License
+This project is licensed under the Apache License 2.0. See the LICENSE file for details.
+
 Contact
 For questions or support, contact the maintainer:
 
-Name: George Read
-Email: georgeyaccoup124@gmail.com
+Name: [Your Name]
+Email: [your_email@example.com]
 
